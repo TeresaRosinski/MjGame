@@ -1,0 +1,29 @@
+.welcome{
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+.x-large{
+  font-size: 800%;
+  letter-spacing: 4px;
+  color: red;
+}
+.medium{
+  font-size: 200%; 
+  letter-spacing: 2px; 
+}
+.image-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3%;
+  background-color: blue;
+}
+
+.btn{
+  padding: 5%;
+  font-size: 175%;
+  margin: 1%;
+}
+
