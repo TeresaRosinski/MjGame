@@ -1,5 +1,5 @@
 import React from "react";
-import policeImg from "../police-standing.png";
+import policeImg from "../imgs/police-standing.png";
 
 function Header() {
 	return (

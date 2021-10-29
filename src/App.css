@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .welcome{
   min-height: 40vh;
   display: flex;
@@ -8,9 +13,17 @@
   letter-spacing: 4px;
   color: red;
 }
+.large{
+  font-size:500%;
+}
 .medium{
   font-size: 200%; 
   letter-spacing: 2px; 
+  padding: 1%;
+}
+.small{
+  font-size: 150%;
+  letter-spacing: 1px;
 }
 .image-text{
   display: flex;
@@ -19,6 +32,7 @@
   align-items: center;
   padding: 3%;
   background-color: blue;
+  color: white;
 }
 
 .btn{
@@ -26,4 +40,99 @@
   font-size: 175%;
   margin: 1%;
 }
+.storyContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.storyImgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 12%;
+}
+.boxText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 10%;
+}
+.cardsContainer{
+  width: 100%;
+  min-height: 70vh;
+}
+.numberCard{
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  border: 1px solid blue;
+  padding: 3%;
+  border-radius: 1%;
 
+}
+.half-half{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height:60vh;
+}
+.num{
+  font-size: 700%;
+  color: blue;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding-right: 2%;
+}
+.imgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.text{
+  text-align: center;
+}
+.twoCard{
+  display: none;
+}
+.threeCard{
+  display: none;
+}
+.fourCard{
+  display: none;
+}
+.fiveCard{
+  display: none;
+}
+.sixCard{
+  display: none;
+}
+.sevenCard{
+  display: none;
+}
+.eightCard{
+  display: none;
+}
+.nineCard{
+  display: none;
+}
+.tenCard{
+  display: none;
+}
+.elevenCard{
+  display: none;
+}
+.twelveCard{
+  display: none;
+}
+.flip{
+  width: 0;
+  height: 0;
+  background: blue;
+  position: absolute;
+}
